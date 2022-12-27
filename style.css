@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0%;
+}
+.icon{
+    margin-left:25px ;
+}
+.icon img{
+    height: 50px;
+    margin-top: 3px;
+    width: 125px;
+}
+
+.navigation{
+    background-color: rgb(0, 108, 209);
+    height: 7vh;
+    display: flex;
+    position: sticky;
+    top: 0;
+    /* justify-content: flex-start;
+    align-items: center; */
+}
+.navigation nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation nav ul li{ 
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+height: 4vh;
+}
+.navigation nav ul li a{ 
+color: white;
+text-decoration: none;
+font-size:18 px;
+font-family: 'Ubuntu', sans-serif;
+}
+.navigation nav ul li a:hover{
+font-weight: bold;
+}
+
+.login{
+  position: relative;
+  left: 45vw;
+  height: 40px;
+  margin-top: 3.5px;
+  width: 80px;
+  border-radius: 5%;
+  border:none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 108, 209);
+font-family: 'Ubuntu', sans-serif;
+}
+.login:hover{
+    box-shadow: 1px 1px 1px 1px black;
+    font-size: 14px;
+}
+.searchbaar{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 5vh;
+}
+.text{
+    width: 500px;
+    height: 3.5vh;
+    border-radius: 3px;
+    border: none;
+    margin-right:10px ;
+    font-family: 'Ubuntu', sans-serif;
+    /* padding-right: 20px; */
+}
+.searchbaar button{
+    width: 100px;
+    height:3.5vh;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(0, 108, 209);
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px groove rgb(0, 108, 209);
+}
+.searchbaar button:hover{
+    font-size: 14px;
+    font-weight: bold;
+}
+.container{
+    min-height: 274.5vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.slider{
+    height:42.5vh;
+    width: 100%;
+
+}
+#slider{
+
+}
+.slider img{
+    height:350px;    
+    width: 1100px;
+    box-shadow: 3px 1.5px 2px 3px rgba(0, 0, 0, 0.8);
+}
+.head-card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+padding: 0px 40px;
+}
+.head-card button{
+    width: 95px;
+    background-color:rgb(0, 108, 209) ;
+    border: none;
+    color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.head-card button:hover{
+/* font-weight: bold; */
+font-size: 15px;
+}
+h2{
+    /* border: 1px solid rgba(0, 0, 0, 0.9); */
+    margin: auto;
+    width: 1200px;
+    /* box-shadow: 2px 1.5px 2px 2px rgba(0, 0, 0, 0.5); */
+   /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5); */
+
+}
+
+.card{
+    height: 25vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   width: 1200px;
+   margin: auto;
+    flex-direction: row;
+    padding-right: 50px;
+   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.card-items{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 0px 30px;
+
+}
+.card-items img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5px solid rgb(0, 108, 209) ; */
+}
+.card-items-last img{
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5px solid rgb(0, 108, 209) ; */
+}
+.card-items img:hover{
+    width:110px;
+    height: 110px;
+}
+.card-items-last img:hover{
+    width: 55px;
+    height: 110px;
+}
+.card-items p{
+    font-weight: bold;
+    text-align: center;
+}
+.sale{
+    color: green;
+}
+.contact{
+    width: 100%;
+    background-color: hsl(0,0%,95%);
+}
+.cta{
+    background-color: yellow;
+    width: 100%;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+.cta-col{
+    width: 33.33%;
+    float: left;
+}
+.cta::after{
+    content:"";
+    clear: both;
+    display: table;
+    
+}
+
+.end{
+    background-color: rgb(0, 108, 209);
+    height: 5vh;
+    color: white;
+font-family: 'Ubuntu', sans-serif;
+
+}
